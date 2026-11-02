@@ -13,7 +13,16 @@ body {
     font-variation-settings:
         "wdth" 100;
     overflow-x: hidden;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
+
+#body {
+    margin: 15px;
+    margin-bottom: 40px; 
+}
+
 
 nav {
     padding: 10px;
@@ -70,7 +79,9 @@ p {
     padding: 35px;
     background: #16164e;
     color: #FFFFFF;
-    margin-top: 15px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    vertical-align: bottom;
 }
 
 .footer a {
