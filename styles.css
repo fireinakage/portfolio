@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root { 
+    --navajo-white: #fbdbb1ff;
+    --sunlit-clay: #fcb35fff;
+    --pumpkin-spice: #ff8c42ff;
+    --molten-lava: #6f1a07ff;
+    --rich-mahogany: #3f0d12ff; 
+}
+
 html {
     scroll-behavior: smooth;
 }
