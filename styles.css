@@ -37,6 +37,7 @@ body {
 nav {
     padding: 10px;
     background: var(--rich-mahogany);
+    font-size: 20px;
 }
 
 nav a {
@@ -67,6 +68,11 @@ h1 {
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
+}
+
+.header p {
+    font-size: 25px;
 }
 
 .header {
@@ -96,7 +102,9 @@ p {
     color: var(--navajo-white);
     margin-top: auto;
     margin-bottom: 0px;
-    vertical-align: bottom;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 17px
 }
 
 .footer a {
@@ -105,6 +113,13 @@ p {
 
 .footer a:hover {
     color: #FFFFFF;
+}
+
+.footer img {
+    display: inline;
+    width: 17px;
+    height: 17px;
+    vertical-align: -3px;
 }
 
 img {
@@ -199,4 +214,56 @@ table a:visited {
 
 table a:hover {
     color: rgb(158, 49, 24);
+}
+
+#card {
+    background: var(--navajo-white);
+    /* border: var(--sunlit-clay) 3px solid; */
+    margin: auto;
+    margin-top: 50px;
+    width: 35%;
+    height: 400px;
+    box-shadow: 0px 10px 40px 4px rgba(111, 26, 7, 0.25);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    display: flex;
+    flex-direction: column;    /* Allows elements to stack vertically if you add text */
+    justify-content: flex-start; /* Aligns contents to the top */
+    align-items: flex-start;    /* Aligns contents to the left */
+}
+
+#card #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#card img {
+    width: 13%;
+    height: auto;
+    border-radius: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: var(--rich-mahogany) 5px solid;
+}
+
+#card h1{
+    margin: 0 0 0 30px;
+    color: var(--rich-mahogany);
+    text-align: left;
+}
+
+#card #pronouns {
+     margin-left: 10px;
+     margin-top: 6px;
+    color: var(--molten-lava);
+    text-align: left;
+    font-size: 25px;
+}
+
+#card p {
+    color: var(--molten-lava);
+    font-size: 20px;
 }
