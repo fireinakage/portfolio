@@ -9,6 +9,10 @@
     --rich-mahogany: #3f0d12ff; 
 }
 
+::selection {
+    background-color: var(--sunlit-clay);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -222,6 +226,7 @@ table a:hover {
     margin: auto;
     margin-top: 50px;
     width: 35%;
+    min-width: 742px;
     height: 400px;
     box-shadow: 0px 10px 40px 4px rgba(111, 26, 7, 0.25);
     border-radius: 12px;
@@ -267,3 +272,9 @@ table a:hover {
     color: var(--molten-lava);
     font-size: 20px;
 }
+
+/* @media screen and (max-width: 1000px) {
+    #card {
+        width: 75%;
+    }
+} */
